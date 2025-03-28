@@ -116,8 +116,8 @@ export const interviewer: CreateAssistantDTO = {
     useSpeakerBoost: true,
   },
   model: {
-    provider: "openai",
-    model: "gpt-4",
+    provider: "google",
+    model: "gemini-1.5-flash",
     messages: [
       {
         role: "system",
